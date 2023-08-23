@@ -1,5 +1,9 @@
+## H43 .MD FILE WROTE BY FYTEX NOT ME BUT I EDITED IT INFO FROM ME AT THE BOTTOM
+
+
+
 ## Download
-For those who don't know where the download is [Click Here](https://github.com/Fytex/H43/archive/master.zip)
+For those who don't know where the download is [Click Here](https://github.com/Superwolf6099/Customized-H43/archive/refs/heads/master.zip)
 
 Appreciate if you could help by leaving a big STAR ;)
 
@@ -105,12 +109,16 @@ If you could at least give me a star :D
 
 Bot Creator: Fytex#4389     ID: 321346463148015626
 
+Bot Editor: th3w01f     ID:1093235684904534028
+
 Art Creator: AmânDIOOO#7771 ID: 253679155651018764        www.instagram.com/amskun/
 
-Discord Server: https://discord.gg/hNGAWVH
+Discord Server of Creator: https://discord.gg/hNGAWVH
 
 ## Found any Errors?
 
 Join my discord sever (link is above) and let me know :D, or you could just write here but I won't pay attention too early xD
 
+## Info from Wolf
 
+This is my first edit I hope I can patch any bugs along the way I didn't edit the error handler so hopefully it doesn't break it. I tried my hardest because I don't know much code I'll soon make one non-directed torwards me and generate a random message from a 1 through 10. I was unable to test it before uploading it so it is soon to be tested after being uploaded.
