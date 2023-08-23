@@ -44,7 +44,7 @@ class Bot(commands.Bot):
         intents = discord.Intents.all()
 
         super().__init__(
-            command_prefix="H43?",
+            command_prefix="WB?",
             case_insensitive=True,
             intents=intents,
             **kwargs
