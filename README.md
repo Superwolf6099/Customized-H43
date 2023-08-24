@@ -1,6 +1,10 @@
-## H43 .MD FILE WROTE BY FYTEX NOT ME BUT I EDITED IT! INFO FROM ME AT THE BOTTOM!
+## H43 .MD FILE AND 99% OF THE CODE WROTE BY FYTEX NOT ME BUT I EDITED IT! INFO FROM ME AT THE BOTTOM!
  
-
+## Update info -Wolf
+Next possible updates
+Command input prefix H43 to WB
+Renaming servers when you destroy/spam to "GET FUCKED BY WOLF"
+Attempting to fix previous server name glitch
 
 
 ## Download
